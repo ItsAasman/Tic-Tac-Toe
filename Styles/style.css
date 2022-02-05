@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: rgb(44, 42, 44);
+  background-color: rgb(182, 208, 247);
+}
+#header {
+  background-color: rgb(18, 41, 245);
+  color: white;
+  padding: 0.5rem 5%;
+  text-align: center;
+  font-family: "Tangerine", cursive;
+  font-size: 130%;
+  font-weight: bolder;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(18, 41, 245);
+  border: 1px solid rgb(18, 41, 245);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-alt {
+  background-color: transparent;
+  border-color: transparent;
+  color: rgb(18, 41, 245);
+}
+
+.btn:hover {
+  background-color: rgb(23, 32, 121);
+  border-color: rgb(15, 26, 119);
+}
+
+.btn-alt:hover {
+  background-color: rgb(153, 163, 250);
+}
+
+footer {
+  text-align: right;
+  padding: 0.4rem 1rem 0 0;
+  color: rgb(29, 127, 219);
+}
+
+#developer-name {
+  font-family: "Tangerine", cursive;
+  font-weight: bolder;
+  font-size: 150%;
+}
